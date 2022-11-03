@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F1C539A28248D64006FBD54 /* CruboticsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1C539928248D64006FBD54 /* CruboticsApp.swift */; };
+		8F1C539C28248D64006FBD54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1C539B28248D64006FBD54 /* ContentView.swift */; };
+		8F1C539E28248D66006FBD54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F1C539D28248D66006FBD54 /* Assets.xcassets */; };
+		8F1C53A128248D66006FBD54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F1C53A028248D66006FBD54 /* Preview Assets.xcassets */; };
+		8F1C53A92824986E006FBD54 /* ConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1C53A82824986E006FBD54 /* ConnectionView.swift */; };
+		8F1C53AE2825CDC9006FBD54 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1C53AD2825CDC9006FBD54 /* Board.swift */; };
+		8F1C53B02825D113006FBD54 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1C53AF2825D113006FBD54 /* Util.swift */; };
+		8F1C53B528260394006FBD54 /* Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1C53B428260394006FBD54 /* Pin.swift */; };
+		8F1C53B7282603AC006FBD54 /* Port.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1C53B6282603AC006FBD54 /* Port.swift */; };
+		8F3BC32B2827383400C20DF0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3BC32A2827383400C20DF0 /* Constants.swift */; };
+		8F44332E2858F12F009E7FA4 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F44332D2858F12F009E7FA4 /* SidebarView.swift */; };
+		8F4433302858F774009E7FA4 /* MotorControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F44332F2858F774009E7FA4 /* MotorControlView.swift */; };
+		8F5C5F6B2864C1A300B232EC /* LaserStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C5F6A2864C1A300B232EC /* LaserStatusView.swift */; };
+		8F801BA2284A6C3D007ACFEE /* Motor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F801BA1284A6C3D007ACFEE /* Motor.swift */; };
+		8F854C0D2828735300BD0DA3 /* BiomassCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F854C0C2828735300BD0DA3 /* BiomassCalculator.swift */; };
+		8F854C1028288B4400BD0DA3 /* MenuCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F854C0F28288B4400BD0DA3 /* MenuCommands.swift */; };
+		8FF76B91282DD99A00A2DEFB /* Serial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF76B90282DD99A00A2DEFB /* Serial.swift */; };
+		8FF76B9528300DB700A2DEFB /* ControllerStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF76B9428300DB700A2DEFB /* ControllerStatusView.swift */; };
+		8FF76B972831BD6B00A2DEFB /* ArduinoStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF76B962831BD6B00A2DEFB /* ArduinoStatusView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F1C539628248D64006FBD54 /* Crubotics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crubotics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F1C539928248D64006FBD54 /* CruboticsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CruboticsApp.swift; sourceTree = "<group>"; };
+		8F1C539B28248D64006FBD54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8F1C539D28248D66006FBD54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F1C53A028248D66006FBD54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8F1C53A228248D66006FBD54 /* Crubotics.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Crubotics.entitlements; sourceTree = "<group>"; };
+		8F1C53A82824986E006FBD54 /* ConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionView.swift; sourceTree = "<group>"; };
+		8F1C53AD2825CDC9006FBD54 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		8F1C53AF2825D113006FBD54 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		8F1C53B428260394006FBD54 /* Pin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pin.swift; sourceTree = "<group>"; };
+		8F1C53B6282603AC006FBD54 /* Port.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Port.swift; sourceTree = "<group>"; };
+		8F3BC32A2827383400C20DF0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8F44332D2858F12F009E7FA4 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		8F44332F2858F774009E7FA4 /* MotorControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorControlView.swift; sourceTree = "<group>"; };
+		8F5C5F6A2864C1A300B232EC /* LaserStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaserStatusView.swift; sourceTree = "<group>"; };
+		8F801BA1284A6C3D007ACFEE /* Motor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motor.swift; sourceTree = "<group>"; };
+		8F854C0C2828735300BD0DA3 /* BiomassCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiomassCalculator.swift; sourceTree = "<group>"; };
+		8F854C0E28287A1700BD0DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8F854C0F28288B4400BD0DA3 /* MenuCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCommands.swift; sourceTree = "<group>"; };
+		8FF76B90282DD99A00A2DEFB /* Serial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serial.swift; sourceTree = "<group>"; };
+		8FF76B9428300DB700A2DEFB /* ControllerStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerStatusView.swift; sourceTree = "<group>"; };
+		8FF76B962831BD6B00A2DEFB /* ArduinoStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArduinoStatusView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F1C539328248D64006FBD54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F1C538D28248D64006FBD54 = {
+			isa = PBXGroup;
+			children = (
+				8F1C539828248D64006FBD54 /* Crubotics */,
+				8F1C539728248D64006FBD54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F1C539728248D64006FBD54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F1C539628248D64006FBD54 /* Crubotics.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F1C539828248D64006FBD54 /* Crubotics */ = {
+			isa = PBXGroup;
+			children = (
+				8F1C539928248D64006FBD54 /* CruboticsApp.swift */,
+				8F1C539B28248D64006FBD54 /* ContentView.swift */,
+				8F44332D2858F12F009E7FA4 /* SidebarView.swift */,
+				8F44332F2858F774009E7FA4 /* MotorControlView.swift */,
+				8F801BA1284A6C3D007ACFEE /* Motor.swift */,
+				8FF76B962831BD6B00A2DEFB /* ArduinoStatusView.swift */,
+				8F5C5F6A2864C1A300B232EC /* LaserStatusView.swift */,
+				8FF76B9428300DB700A2DEFB /* ControllerStatusView.swift */,
+				8F1C53A82824986E006FBD54 /* ConnectionView.swift */,
+				8FF76B982831DF1C00A2DEFB /* Miscellaneous */,
+				8F1C53AA2825CDA7006FBD54 /* Firmata */,
+				8F1C539D28248D66006FBD54 /* Assets.xcassets */,
+				8F1C53A228248D66006FBD54 /* Crubotics.entitlements */,
+				8F854C0E28287A1700BD0DA3 /* Info.plist */,
+				8F1C539F28248D66006FBD54 /* Preview Content */,
+			);
+			path = Crubotics;
+			sourceTree = "<group>";
+		};
+		8F1C539F28248D66006FBD54 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8F1C53A028248D66006FBD54 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8F1C53AA2825CDA7006FBD54 /* Firmata */ = {
+			isa = PBXGroup;
+			children = (
+				8F1C53AD2825CDC9006FBD54 /* Board.swift */,
+				8F3BC32A2827383400C20DF0 /* Constants.swift */,
+				8F1C53B428260394006FBD54 /* Pin.swift */,
+				8F1C53B6282603AC006FBD54 /* Port.swift */,
+				8F1C53AF2825D113006FBD54 /* Util.swift */,
+				8FF76B90282DD99A00A2DEFB /* Serial.swift */,
+			);
+			path = Firmata;
+			sourceTree = "<group>";
+		};
+		8FF76B982831DF1C00A2DEFB /* Miscellaneous */ = {
+			isa = PBXGroup;
+			children = (
+				8F854C0F28288B4400BD0DA3 /* MenuCommands.swift */,
+				8F854C0C2828735300BD0DA3 /* BiomassCalculator.swift */,
+			);
+			path = Miscellaneous;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F1C539528248D64006FBD54 /* Crubotics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F1C53A528248D66006FBD54 /* Build configuration list for PBXNativeTarget "Crubotics" */;
+			buildPhases = (
+				8F1C539228248D64006FBD54 /* Sources */,
+				8F1C539328248D64006FBD54 /* Frameworks */,
+				8F1C539428248D64006FBD54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Crubotics;
+			packageProductDependencies = (
+			);
+			productName = Crubotics;
+			productReference = 8F1C539628248D64006FBD54 /* Crubotics.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F1C538E28248D64006FBD54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					8F1C539528248D64006FBD54 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 8F1C539128248D64006FBD54 /* Build configuration list for PBXProject "Crubotics" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F1C538D28248D64006FBD54;
+			packageReferences = (
+			);
+			productRefGroup = 8F1C539728248D64006FBD54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F1C539528248D64006FBD54 /* Crubotics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F1C539428248D64006FBD54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1C53A128248D66006FBD54 /* Preview Assets.xcassets in Resources */,
+				8F1C539E28248D66006FBD54 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F1C539228248D64006FBD54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1C53B528260394006FBD54 /* Pin.swift in Sources */,
+				8F854C0D2828735300BD0DA3 /* BiomassCalculator.swift in Sources */,
+				8F44332E2858F12F009E7FA4 /* SidebarView.swift in Sources */,
+				8F1C53B7282603AC006FBD54 /* Port.swift in Sources */,
+				8F854C1028288B4400BD0DA3 /* MenuCommands.swift in Sources */,
+				8FF76B91282DD99A00A2DEFB /* Serial.swift in Sources */,
+				8F801BA2284A6C3D007ACFEE /* Motor.swift in Sources */,
+				8F1C53B02825D113006FBD54 /* Util.swift in Sources */,
+				8F1C539C28248D64006FBD54 /* ContentView.swift in Sources */,
+				8F1C53A92824986E006FBD54 /* ConnectionView.swift in Sources */,
+				8FF76B9528300DB700A2DEFB /* ControllerStatusView.swift in Sources */,
+				8F1C539A28248D64006FBD54 /* CruboticsApp.swift in Sources */,
+				8F1C53AE2825CDC9006FBD54 /* Board.swift in Sources */,
+				8F5C5F6B2864C1A300B232EC /* LaserStatusView.swift in Sources */,
+				8F3BC32B2827383400C20DF0 /* Constants.swift in Sources */,
+				8F4433302858F774009E7FA4 /* MotorControlView.swift in Sources */,
+				8FF76B972831BD6B00A2DEFB /* ArduinoStatusView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8F1C53A328248D66006FBD54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F1C53A428248D66006FBD54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8F1C53A628248D66006FBD54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Crubotics/Crubotics.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Crubotics/Preview Content\"";
+				DEVELOPMENT_TEAM = 3NT5FR4Z74;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Crubotics/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.pensacolachs.robotics.Crubotics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8F1C53A728248D66006FBD54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Crubotics/Crubotics.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Crubotics/Preview Content\"";
+				DEVELOPMENT_TEAM = 3NT5FR4Z74;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Crubotics/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.pensacolachs.robotics.Crubotics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F1C539128248D64006FBD54 /* Build configuration list for PBXProject "Crubotics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F1C53A328248D66006FBD54 /* Debug */,
+				8F1C53A428248D66006FBD54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F1C53A528248D66006FBD54 /* Build configuration list for PBXNativeTarget "Crubotics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F1C53A628248D66006FBD54 /* Debug */,
+				8F1C53A728248D66006FBD54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F1C538E28248D64006FBD54 /* Project object */;
+}
